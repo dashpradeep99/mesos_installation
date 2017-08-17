@@ -10,55 +10,55 @@ services:
       - '2001:22'
     command: sh /root/common/start.sh
     
-  # p2:
-  #   image: 'the1'
-  #   volumes:
-  #     - '~/mesos/mesos_installation/common:/root/common'
-  #   environment:
-  #     - MONGODB_USERNAME=orion
-  #   ports:
-  #     - '2002:22'
-  #   command: sh /root/common/start.sh
+  p2:
+    image: 'the1'
+    volumes:
+      - '~/mesos/mesos_installation/common:/root/common'
+    environment:
+      - MONGODB_USERNAME=orion
+    ports:
+      - '2002:22'
+    command: sh /root/common/start.sh
 
-  # p3:
-  #   image: 'the1'
-  #   volumes:
-  #     - '~/mesos/mesos_installation/common:/root/common'
-  #   environment:
-  #     - MONGODB_USERNAME=orion
-  #   ports:
-  #     - '2003:22'      
-  #   command: sh /root/common/start.sh
+  p3:
+    image: 'the1'
+    volumes:
+      - '~/mesos/mesos_installation/common:/root/common'
+    environment:
+      - MONGODB_USERNAME=orion
+    ports:
+      - '2003:22'      
+    command: sh /root/common/start.sh
 
-  # p4:
-  #   image: 'the1'
-  #   volumes:
-  #     - '~/mesos/mesos_installation/common:/root/common'
-  #   environment:
-  #     - MONGODB_USERNAME=orion
-  #   ports:
-  #     - '2004:22'      
-  #   command: sh /root/common/start.sh
+  p4:
+    image: 'the1'
+    volumes:
+      - '~/mesos/mesos_installation/common:/root/common'
+    environment:
+      - MONGODB_USERNAME=orion
+    ports:
+      - '2004:22'      
+    command: sh /root/common/start.sh
 
-  # p5:
-  #   image: 'the1'
-  #   volumes:
-  #     - '~/mesos/mesos_installation/common:/root/common'
-  #   environment:
-  #     - MONGODB_USERNAME=orion
-  #   ports:
-  #     - '2005:22'      
-  #   command: sh /root/common/start.sh
+  p5:
+    image: 'the1'
+    volumes:
+      - '~/mesos/mesos_installation/common:/root/common'
+    environment:
+      - MONGODB_USERNAME=orion
+    ports:
+      - '2005:22'      
+    command: sh /root/common/start.sh
   
-  # p6:
-  #   image: 'the1'
-  #   volumes:
-  #     - '~/mesos/mesos_installation/common:/root/common'
-  #   environment:
-  #     - MONGODB_USERNAME=orion
-  #   ports:
-  #     - '2006:22'
-  #   command: sh /root/common/start.sh
+  p6:
+    image: 'the1'
+    volumes:
+      - '~/mesos/mesos_installation/common:/root/common'
+    environment:
+      - MONGODB_USERNAME=orion
+    ports:
+      - '2006:22'
+    command: sh /root/common/start.sh
 
 
     
