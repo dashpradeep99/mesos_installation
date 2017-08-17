@@ -11,7 +11,7 @@ services:
     command: sh /root/common/start.sh
     
   p2:
-    image: 'the1'
+    image: 'hasnaeen/mesos'
     volumes:
       - '~/mesos/mesos_installation/common:/root/common'
     environment:
@@ -21,7 +21,7 @@ services:
     command: sh /root/common/start.sh
 
   p3:
-    image: 'the1'
+    image: 'hasnaeen/mesos'
     volumes:
       - '~/mesos/mesos_installation/common:/root/common'
     environment:
@@ -31,7 +31,7 @@ services:
     command: sh /root/common/start.sh
 
   p4:
-    image: 'the1'
+    image: 'hasnaeen/mesos'
     volumes:
       - '~/mesos/mesos_installation/common:/root/common'
     environment:
@@ -41,7 +41,7 @@ services:
     command: sh /root/common/start.sh
 
   p5:
-    image: 'the1'
+    image: 'hasnaeen/mesos'
     volumes:
       - '~/mesos/mesos_installation/common:/root/common'
     environment:
@@ -51,7 +51,7 @@ services:
     command: sh /root/common/start.sh
   
   p6:
-    image: 'the1'
+    image: 'hasnaeen/mesos'
     volumes:
       - '~/mesos/mesos_installation/common:/root/common'
     environment:
