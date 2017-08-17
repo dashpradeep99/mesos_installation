@@ -3,7 +3,7 @@ services:
   p1:
     image: 'hasnaeen/mesos'
     volumes:
-      - '~/mesos/mesos_installation/common:/root/common'
+      - '~/git/mesos_installation/common:/root/common'
     environment:
       - MONGODB_USERNAME=orion
     ports:
@@ -13,7 +13,7 @@ services:
   p2:
     image: 'hasnaeen/mesos'
     volumes:
-      - '~/mesos/mesos_installation/common:/root/common'
+      - '~/git/mesos_installation/common:/root/common'
     environment:
       - MONGODB_USERNAME=orion
     ports:
@@ -23,7 +23,7 @@ services:
   p3:
     image: 'hasnaeen/mesos'
     volumes:
-      - '~/mesos/mesos_installation/common:/root/common'
+      - '~/git/mesos_installation/common:/root/common'
     environment:
       - MONGODB_USERNAME=orion
     ports:
@@ -33,7 +33,7 @@ services:
   p4:
     image: 'hasnaeen/mesos'
     volumes:
-      - '~/mesos/mesos_installation/common:/root/common'
+      - '~/git/mesos_installation/common:/root/common'
     environment:
       - MONGODB_USERNAME=orion
     ports:
@@ -43,7 +43,7 @@ services:
   p5:
     image: 'hasnaeen/mesos'
     volumes:
-      - '~/mesos/mesos_installation/common:/root/common'
+      - '~/git/mesos_installation/common:/root/common'
     environment:
       - MONGODB_USERNAME=orion
     ports:
@@ -53,7 +53,7 @@ services:
   p6:
     image: 'hasnaeen/mesos'
     volumes:
-      - '~/mesos/mesos_installation/common:/root/common'
+      - '~/git/mesos_installation/common:/root/common'
     environment:
       - MONGODB_USERNAME=orion
     ports:
