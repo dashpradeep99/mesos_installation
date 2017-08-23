@@ -1,0 +1,13 @@
+*
+!.gitignore
+!dcos.tf
+!make-files.sh
+!output.tf
+!sample.terraform.tfvars
+!vars.tf
+!README.md
+terraform.tfvars
+do-key
+do-key.pub
+terraform.tfstate
+terraform.tfstate*
