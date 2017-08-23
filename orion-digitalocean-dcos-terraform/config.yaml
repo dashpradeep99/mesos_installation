@@ -1,0 +1,14 @@
+bootstrap_url: http://138.197.110.112:4040
+cluster_name: digitalocean-dcos
+exhibitor_storage_backend: zookeeper
+exhibitor_zk_hosts: 138.197.110.112:2181
+exhibitor_zk_path: /digitalocean-dcos
+log_directory: /genconf/logs
+master_discovery: static
+master_list:
+- 174.138.49.0
+- 165.227.65.60
+- 45.55.50.24
+resolvers: 
+- 8.8.4.4
+- 8.8.8.8
